@@ -1,0 +1,12 @@
+require_relative "./student.rb"
+class ChattyStudent << Student 
+  
+  def hello
+    super
+    puts "How are you doing today? I'm okay, but I'm kind of tired. Did you watch The Walking Dead last night? You didn't?! Okay well let me just tell you who died..."
+  end
+  
+  def raise_hand
+    super
+    puts "Pick me!".times(10)
+end
